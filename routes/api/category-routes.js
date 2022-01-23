@@ -2,7 +2,6 @@ const router = require("express").Router();
 const { Category, Product } = require("../../models");
 
 // The `/api/categories` endpoint
-
 router.get("/", (req, res) => {
   try {
     const categories = await Category.findAll({
@@ -12,7 +11,6 @@ router.get("/", (req, res) => {
   } catch (err) {
     res.status(500).json(err);
   }
-
   res;
 });
 

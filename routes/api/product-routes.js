@@ -88,6 +88,7 @@ router.put("/:id", (req, res) => {
             tag_id,
           };
         });
+        
       // figure out which ones to remove
       const productTagsToRemove = productTags
         .filter(({ tag_id }) => !req.body.tagIds.includes(tag_id))
@@ -114,7 +115,6 @@ router.delete("/:id", (req, res) => {
         id: req.params.id,
       },
     });
-
     if (!productFound) res.sendStatus(404);
     else res.sendStatus(200);
   } catch (err) {
