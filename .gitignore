@@ -105,3 +105,6 @@ dist
 
 # ENV File
 .env
+
+# Mac files
+.DS_Store
