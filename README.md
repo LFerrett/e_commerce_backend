@@ -27,7 +27,7 @@ SO THAT my company can compete with other e-commerce companies
 
 ## Usage
 
-![Screenshot of Final Code](./assets/employeeTracker_screenshot.png)
+![Screenshot of Final Code](./assets/ecommerce_ljf_screenshot.png)
 
 A video walk through of the final project is below:
 
